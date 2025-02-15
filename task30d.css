@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    gap: 20px;
+    display: flex;
+    
+}
+.navbar p{
+    justify-content: space-around;
+}
+a{
+    padding-left: 40px;
+}
+footer{
+    background-color: blue;
+    padding-left: 50px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    color:white;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    }
+    p{
+        padding-top:none ;
+    }
+    p{
+        padding-top:none ;
+    }
+    .bnav{
+    background-color: rgb(187, 187, 165);
+    position: absolute;
+    bottom: 30px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 50px;
+    color: black;
+width: 100%;
+    }    
+    body {
+        font-family: Arial, sans-serif;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+    }
+    .login-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+    }
+    .login-container h2 {
+        margin-bottom: 20px;
+    }
+    .login-container label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    .login-container input[type="email"],
+    .login-container input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .login-container button {
+        padding: 10px;
+        width: 70px;
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .login-container button:hover {
+        background-color: #0056b3;
+    }
+    .login-container .register-message {
+        margin-top: 20px;
+        color: white;
+
+    }
+    .login-container .register-message a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+    .login-container .register-message a:hover {
+        text-decoration: underline;
+    }
+main{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 100px;
+    padding: 20px;
+    color: white;
+    padding-right: 20px;
+
+
+}
+.login-container{
+    width: 1300px;
+    background-color: rgb(40, 40, 55);
+    color: white;
+    padding-right: 20px;
+}
+button{
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

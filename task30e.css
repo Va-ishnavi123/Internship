@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    gap: 20px;
+    display: flex;
+    
+}
+.navbar p{
+    justify-content: space-around;
+}
+a{
+    padding-left: 40px;
+}
+footer{
+    background-color: blue;
+    padding-left: 50px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    color:white;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    }
+    p{
+        padding-top:none ;
+    }
+    p{
+        padding-top:none ;
+    }
+    .bnav{
+    background-color: rgb(187, 187, 165);
+    position: absolute;
+    bottom: 30px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 50px;
+    color: black;
+    height:30%;
+width: 100%;
+position: relative;
+bottom: 50px;
+    }    
+    body {
+        font-family: Arial, sans-serif;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f4f4f4;
+    }
+    .registration-container {
+        background-color: rgb(31, 31, 45);
+color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 1250px;
+        margin-left: 100px;
+        height: 700px;
+    }
+    .registration-container h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .registration-container label {
+        display: block;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    .registration-container input[type="text"],
+    .registration-container input[type="email"],
+    .registration-container input[type="tel"],
+    .registration-container input[type="date"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .registration-container button {
+        width: auto;
+        margin-left: 550px;
+        padding: 10px;
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .registration-container button:hover {
+        background-color: #218838;
+    }

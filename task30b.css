@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    gap: 20px;
+    display: flex;
+    
+}
+.navbar p{
+    justify-content: space-around;
+}
+a{
+    padding-left: 40px;
+}
+footer{
+    background-color: blue;
+    padding-left: 50px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    color:white;
+    position: fixed;
+    width: 100%;
+    bottom:0;
+    }
+    p{
+        padding-top:none ;
+    }
+    p{
+        padding-top:none ;
+    }
+    .bnav{
+    background-color: rgb(187, 187, 165);
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 50px;
+    color: black;
+    }    
+    main{
+        text-align: center;
+    }
+    p{
+        text-align: left;
+    }
+    .sgn{
+        text-align: left;
+    }
+    #h2{
+        font-size: 50px;
+        font-weight: 300;
+    }
+    #pid{
+        font-size: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+        gap: 10px;
+        line-height: 25px;
+    }

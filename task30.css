@@ -1,0 +1,109 @@
+/* .image{
+    float: left;
+    width: 50%;
+
+}
+.content{
+    float: right;
+    width: 50%;
+} */
+
+.con1,.con2,.con3{
+    display: flex;
+    margin-top: 10px;
+    
+
+}
+
+.image, .content{
+    width: 50%;
+    
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    gap: 20px;
+    display: flex;
+    
+}
+.navbar p{
+    justify-content: space-around;
+}
+a{
+    padding-left: 40px;
+}
+#heading{
+    margin-right: 550px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.para1{
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(242, 237, 237);
+    padding: 5px;
+}
+.content{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 21px;
+    margin-left: 10px;
+    line-height: 30px;
+}
+img{
+    margin-top: 0px;
+width: 100%;
+justify-content: center;
+align-items: center;
+align-content: center;
+
+}
+.circle{
+    background-color: rgb(242, 237, 237);
+}
+h5{
+text-align: center;
+font-size: 35px;
+padding-top: 10px;
+}
+.im{
+width: 80%;
+border-radius: 50%;
+}
+.box{
+    display: flex;
+
+}
+h6,p{
+    text-align: center;
+}
+h6{
+    font-size: 20px;
+}
+p{
+    padding-top:none ;
+}
+.bnav{
+background-color: rgb(187, 187, 165);
+justify-content: center;
+text-align: center;
+padding-top: 5px;
+font-size: 50px;
+color: black;
+}
+footer{
+background-color: blue;
+padding-left: 50px;
+height: 40px;
+justify-content: center;
+align-items: center;
+padding-top: 10px;
+color:white;
+position: fixed;
+width: 100%;
+bottom:0;
+}
